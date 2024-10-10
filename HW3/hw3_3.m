@@ -1,7 +1,8 @@
 clear;
 clc;
 
-addpath('C:/Users/user/Desktop/碩一上/FEM/HW3/distmesh'); %這邊要換成自己電腦的絕對路徑 用助教程式碼
+addpath('../distmesh'); %這邊要換成自己電腦的絕對路徑 用助教程式碼 % 改為相對路徑 
+% ./ 當前資料夾 ../ 上一層資料夾
 % which distmesh2d
 
 filename = 'hw33';
